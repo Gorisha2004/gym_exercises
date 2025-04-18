@@ -9,6 +9,18 @@ export const exerciseOptions =  {
 	}
 };
 
+export const youtubeOptions = {
+	method: 'GET',
+	hostname: 'youtube-search-and-download.p.rapidapi.com',
+	port: null,
+	path: '/channel/about?id=UCE_M8A5yxnLfW0KghEeajjw',
+	headers: {
+		'x-rapidapi-key': 'process.env.REACT_APP_RAPID_API_KEY',
+		'x-rapidapi-host': 'youtube-search-and-download.p.rapidapi.com'
+	}
+};
+
+
 console.log('Fetching config from:', exerciseOptions.hostname);
 console.log('With options:', exerciseOptions);
 
