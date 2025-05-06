@@ -17,8 +17,7 @@ A sleek and interactive web application that helps users discover gym exercises 
 
 - **Frontend**: React.js
 - **API**: ExerciseDB API
-- **Styling**: CSS (or Tailwind/Bootstrap if used)
-- **Other Tools**: Axios, React Router (if used)
+- **Styling**: CSS 
 
 ---
 
